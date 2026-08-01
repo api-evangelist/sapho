@@ -1,11 +1,30 @@
 aid: sapho
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sapho.png
 name: Sapho
-description: Sapho is a company surfaced as a portfolio company of bloomberg-beta, uncork-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sapho was a San Bruno, California micro-apps startup (founded 2014) that let enterprises
+  build employee-facing "micro apps" and workflow notifications on top of legacy and SaaS systems. It
+  was acquired by Citrix in November 2018 and folded into the Citrix Workspace product line as Citrix
+  Microapps; the standalone product, developer portal, and any API surface were retired. The sapho.com
+  domain now resolves only to a MarkMonitor brand-protection holding page (HTTPS refused, HTTP returns
+  the registrar notice), so there is no live public API, documentation, or developer surface to enrich.
+  This record is retained as a portfolio-company history stub for bloomberg-beta and uncork-capital.
 url: https://raw.githubusercontent.com/api-evangelist/sapho/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-acquired-by: citrix
+x-acquired-date: '2018-11'
 x-backed-by:
 - bloomberg-beta
 - uncork-capital
@@ -13,12 +32,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Acquired
+- Micro Apps
+- Enterprise
+- Workflow
+- Citrix
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
